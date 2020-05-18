@@ -1,0 +1,18 @@
+import re
+txt = "The rain in +++++****123 Spain"
+x1 = re.findall("[arn]", txt)
+print(x1)
+x2 = re.findall("[a-i]", txt)
+print(x2)
+x3 = re.findall("[^arn]", txt)
+print(x3)
+x4 = re.findall("[0123]", txt)
+print(x4)
+x5 = re.findall("[0-9]", txt)
+print(x5)
+x6 = re.findall("[0-9][0-9][0-9]", txt)
+print(x6)
+x7 = re.findall("[a-zA-Z]", txt)
+print(x7)
+x8 = re.findall("[*]", txt)
+print(x8)

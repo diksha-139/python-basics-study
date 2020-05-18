@@ -1,0 +1,1 @@
+a = 10print(a, type(a))print(a, isinstance(a, int))print("type", isinstance(a, float))a=input("enter list")print(type(a))
